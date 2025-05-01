@@ -17,7 +17,7 @@ const VideoCard = ({ video }: any) => {
                 <Thumbnail
                     single_img={video.single_img}
                     splash_img={video.splash_img}
-                    title={Bokep.title}
+                    title={video.title}
                 />
                 </Link>
             </div>
